@@ -14,14 +14,14 @@ table {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-inline: 10%;
+    margin-inline: 2%;
     background-color: rgb(192, 214, 247);
     color: #252733;
     border-radius: 10px;
     border: none;
 }
 td {
-    width: 500px;
+    width: 400px;
     border-radius: 5px;
     border-color: #646A86;
     border-style:groove;
@@ -33,21 +33,21 @@ a {
 }
 
 h2 {
-    margin-left: 10%;
+    text-align: center;
     margin-block-end: -80px;
     top: 55px;
     
 }
 
 #lista {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 50px;
-    width: 80%;
-    height: 500px;
+    width: auto;
     background-color: rgb(218, 232, 248);
-    padding-top: 5%;
+    padding-top: 20px;
     border-radius: 30px;
+    padding-block-end: 30px;
 }
 
 .cab {
