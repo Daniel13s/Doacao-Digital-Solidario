@@ -14,11 +14,12 @@ table {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-inline: 2%;
+    margin-inline: 0.5%;
     background-color: #5CB6F9;
     color: #252733;
     border-radius: 10px;
     border: none;
+    font-size: small;
 }
 td {
     width: 400px;
