@@ -15,7 +15,7 @@ table {
     justify-content: center;
     margin-top: 100px;
     margin-inline: 2%;
-    background-color: rgb(192, 214, 247);
+    background-color: #5CB6F9;
     color: #252733;
     border-radius: 10px;
     border: none;
@@ -53,4 +53,22 @@ h2 {
 .cab {
     border-style: none;
     text-align: center;
+}
+img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    
+}
+
+.contato {
+    background-color: #474b69;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 0;
 }
