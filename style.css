@@ -66,9 +66,8 @@ img {
 }
 
 #logo {
-    width: 100px;
-    position: absolute;
+    width: 150px;
     display: block;
     margin: auto;
-    top: 0;
+    margin-top: 20px;
 }
