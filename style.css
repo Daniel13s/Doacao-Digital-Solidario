@@ -1,12 +1,12 @@
 @keyframes animacao {
     0%{
-        opacity: 100%;
+        background-color: #20a277;
     }
     50%{
-        opacity: 50%;
+        background-color: #1b6b50;
     }
     100%{
-        opacity: 100%;
+        background-color: #20a277;
     }
 }
 
@@ -100,7 +100,7 @@ img {
 
 .contato:hover {
     animation: animacao;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 
