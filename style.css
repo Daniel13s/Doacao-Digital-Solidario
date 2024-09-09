@@ -1,3 +1,13 @@
+@keyframes sideBar {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 250px;
+    }
+}
+
 @keyframes animacao {
     0%{
         background-color: #20a277;
@@ -33,19 +43,20 @@ nav {
     justify-content: space-around;
     font-size: large;
     margin-top: 20px;
+    background-color: rgb(39, 39, 104);
+    height: 150px;
 }
 
 table {
-    display: flex;
-    justify-content: center;
+    margin: auto;
     margin-top: 100px;
-    margin-inline: 0.5%;
     background-color: #f3e998;
     color: black;
     border-radius: 10px;
     border: none;
     font-weight: bold;
     font-size: small;
+    width: 700px;
 }
 td {
     width: 400px;
@@ -59,6 +70,7 @@ td {
     color: white;
     border-radius: 10px;
     padding: 10px;
+    margin: auto;
 }
 
 .hl:hover {
@@ -76,11 +88,12 @@ h2 {
 
 #lista {
     margin-top: 50px;
-    width: auto;
-    background-color: #71c1e8;
+    width: 900px;
     padding-top: 20px;
+    color: white;
     border-radius: 30px;
     padding-block-end: 30px;
+    margin: auto;
 }
 
 .cab {
@@ -109,4 +122,61 @@ img {
     display: block;
     margin: auto;
     margin-top: 20px;
+}
+
+nav {
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu {
+    border-style: none;
+    background-image: url(image/cardapio.png);
+    background-color: rgb(39, 39, 104);
+    width: 30px;
+    height: 30px;
+}
+
+#sideBar {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    height: 1000px;
+    border-radius: 0 20px 20px 0;
+    opacity: 0;
+}
+
+#doador {
+    color: black;
+    text-decoration: none;
+}
+
+#itens {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+    table {
+        width: auto;
+        margin-top: 100px;
+        background-color: #f3e998;
+        color: black;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    #lista {
+        margin-top: 50px;
+        width: auto;
+        padding-top: 20px;
+        border-radius: 30px;
+        padding-block-end: 30px;
+    }
+    
 }
