@@ -3,7 +3,7 @@ function clicar() {
     var sideBar = document.getElementById('sideBar')
     sideBar.style.opacity = '100%'
     sideBar.style.animation = 'sideBar'
-    sideBar.style.animationDuration = '0.5s'
+    sideBar.style.animationDuration = '0.1s'
     sideBar.style.animationIterationCount = '1'
 
     var doador = document.createElement('a')
