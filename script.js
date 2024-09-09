@@ -8,7 +8,11 @@ function clicar() {
 
     var doador = document.createElement('a')
     var enter = document.createElement('br')
+    var img1 = document.createElement('img')
+    var img2 = document.createElement('img')
+    img1.setAttribute('src', 'image/lista.png')
     doador.innerHTML = 'Quer ser um Doador?'
+    doador.appendChild(img1)
     sideBar.appendChild(doador)
     sideBar.appendChild(enter)
     enter.setAttribute('id', 'enter')
@@ -17,7 +21,9 @@ function clicar() {
     doador.setAttribute('id', 'doador')
  
     var itens = document.createElement('a')
+    img2.setAttribute('src', 'image/forms.png')
     itens.innerHTML = 'Itens para Doação'
+    itens.appendChild(img2)
     sideBar.appendChild(itens)
     itens.setAttribute('href', 'index.html')
     itens.setAttribute('target', '_blank')
