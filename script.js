@@ -3,7 +3,7 @@ function clicar() {
     var sideBar = document.getElementById('sideBar')
     sideBar.style.opacity = '100%'
     sideBar.style.animation = 'sideBar'
-    sideBar.style.animationDuration = '1s'
+    sideBar.style.animationDuration = '0.5s'
     sideBar.style.animationIterationCount = '1'
 
     var doador = document.createElement('a')
@@ -33,6 +33,7 @@ function fechou() {
     doador.parentNode.removeChild(doador)
     enter.parentNode.removeChild(enter)
     sideBar.style.opacity = '0%'
+    sideBar.style.animation = ''
     
     var itens = document.getElementById('itens')
     itens.parentNode.removeChild(itens)
