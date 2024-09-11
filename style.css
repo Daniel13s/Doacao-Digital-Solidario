@@ -8,6 +8,15 @@
     }
 }
 
+@keyframes fechar {
+    from {
+        width: 250px;
+    }
+    to {
+        width: 0px;
+    }
+}
+
 @keyframes animacao {
     0%{
         background-color: #20a277;
@@ -36,15 +45,6 @@
 body {
     background-color: #6773b1;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    font-size: large;
-    margin-top: 20px;
-    background-color: rgb(39, 39, 104);
-    height: 150px;
 }
 
 table {
@@ -95,6 +95,11 @@ h2 {
     padding-block-end: 30px;
     margin: auto;
 }
+#imagemNav {
+    position: absolute;
+    top: 20px;
+    margin: auto;
+}
 
 .cab {
     border-style: none;
@@ -122,6 +127,11 @@ img {
     display: block;
     margin: auto;
     margin-top: 20px;
+    opacity: 0;
+}
+
+#logoD {
+    width: 200px;
 }
 
 nav {
@@ -130,6 +140,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(39, 39, 104);
 }
 
 #menu {
@@ -144,10 +155,9 @@ nav {
     position: absolute;
     text-align: center;
     background-color: white;
-    width: 250px;
+    width: 0px;
     height: 1000px;
     border-radius: 0 20px 20px 0;
-    opacity: 0;
 }
 
 #doador {
@@ -178,5 +188,4 @@ nav {
         border-radius: 30px;
         padding-block-end: 30px;
     }
-    
 }

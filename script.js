@@ -1,10 +1,12 @@
 function clicar() {
     var menu = document.getElementById('menu')
     var sideBar = document.getElementById('sideBar')
-    sideBar.style.opacity = '100%'
+    sideBar.style.width = '250px'
+    var logo = document.getElementById('logo')
     sideBar.style.animation = 'sideBar'
     sideBar.style.animationDuration = '0.1s'
     sideBar.style.animationIterationCount = '1'
+    logo.style.opacity = '100%'
 
     var doador = document.createElement('a')
     var enter = document.createElement('br')
@@ -34,12 +36,16 @@ function clicar() {
 function fechou() {
     var menu = document.getElementById('menu')
     var doador = document.getElementById('doador')
+    sideBar.style.width = '0px'
     var enter = document.getElementById('enter')
+    var logo = document.getElementById('logo')
+    logo.style.opacity = '0'
     menu.setAttribute('onclick', 'clicar()')
     doador.parentNode.removeChild(doador)
     enter.parentNode.removeChild(enter)
-    sideBar.style.opacity = '0%'
-    sideBar.style.animation = ''
+    sideBar.style.animation = 'fechar'
+    sideBar.style.animationDuration = '0.1s'
+    sideBar.style.animationIterationCount = '1'
     
     var itens = document.getElementById('itens')
     itens.parentNode.removeChild(itens)
