@@ -28,20 +28,17 @@
         background-color: #20a277;
     }
 }
-
-@keyframes link {
+@keyframes animacao2{
     0% {
-        background-color: #6773b1;
+        color: #1b6b50;
     }
     50% {
-        background-color: #71c1e8;
-        border-radius: 30px;
+        color: #20a277;
     }
     100% {
-        background-color: #6773b1;
+        color: #1b6b50;
     }
-}
-
+ }
 body {
     background-color: #6773b1;
     font-family: Arial, Helvetica, sans-serif;
@@ -114,6 +111,17 @@ img {
 
 .contato {
     background-color: #20a277;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1b6b50;
+}
+a:hover {
+    animation: animacao2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 .contato:hover {
